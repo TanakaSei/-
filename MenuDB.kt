@@ -1,4 +1,4 @@
-package com.example.soramban.myapplication
+package your_packagename
 
 import io.realm.Realm
 import io.realm.kotlin.createObject
