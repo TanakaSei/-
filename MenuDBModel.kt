@@ -1,4 +1,4 @@
-package com.example.soramban.myapplication
+package your_packagename
 
 import io.realm.RealmObject
 import  io.realm.annotations.PrimaryKey
