@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="select_start">選択開始!</string>
+    <string name="option">設定</string>
+    <string name="menu">メニュー</string>
+    <string name="back">戻る</string>
+    <string name="select_num">選択数(1～3)</string>
+    <string name="duplication">重複</string>
+
+    <string name="yakitori">焼き鳥</string>
+        <string name="kizoku">貴族焼</string>
+        <string name="sio">塩焼</string>
+        <string name="tare">たれ焼</string>
+        <string name="kushi">串焼</string>
+    <string name="grand_sub">サブメニュー</string>
+        <string name="special_ties">逸品料理</string>
+        <string name="speed_menu">スピードメニュー</string>
+        <string name="dessert">デザート</string>
+    <string name="grand_drinks">ドリンク</string>
+        <string name="alcohol">酒</string>
+        <string name="non_alcohol">ノンアルコール</string>
+        <string name="soft_drinks">ソフトドリンク</string>
+
+    <string name="fair">フェアメニュー</string>
+        <string name="fair_special_ties">フェアメニュー（逸品）</string>
+        <string name="fair_dessert">フェアメニュー（デザート）</string>
+        <string name="fair_drinks">フェアメニュー（ドリンク）</string>
+
+</resources>

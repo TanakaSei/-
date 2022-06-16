@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/duplicateButton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground">
+
+    <ScrollView
+        android:layout_width="392dp"
+        android:layout_height="669dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/numberTxt"
+                    android:layout_width="206dp"
+                    android:layout_height="49dp"
+                    android:text="@string/select_num"
+                    android:textAlignment="center" />
+
+                <SeekBar
+                    android:id="@+id/numberSeekBar"
+                    android:layout_width="173dp"
+                    android:layout_height="match_parent"
+                    android:max="3"
+                    android:min="1"
+                    android:progress="2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/duplicationTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/duplication"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/a"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/kizokuTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/kizoku"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/b"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/sioTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/sio"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/c"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tareTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/tare"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/d"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/kushiTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/kushi"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/e"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/speedTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/speed_menu"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/f"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/ippinTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/special_ties"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/g"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/dessertTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/dessert"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/h"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/sakeTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/alcohol"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/i"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/nonAlTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/non_alcohol"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/j"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/softDrinkTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/soft_drinks"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/k"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/f_drinkTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/fair_drinks"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/l"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/f_specialTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/fair_special_ties"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/m"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/f_dessartTxt"
+                    android:layout_width="208dp"
+                    android:layout_height="52dp"
+                    android:text="@string/fair_dessert"
+                    android:textAlignment="center" />
+
+                <ToggleButton
+                    android:id="@+id/n"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:text="Button" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
