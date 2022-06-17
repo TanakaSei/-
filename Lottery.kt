@@ -1,4 +1,4 @@
-package com.example.soramban.myapplication
+package yourpackage
 
 import io.realm.Realm
 import io.realm.kotlin.where
