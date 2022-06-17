@@ -10,8 +10,9 @@ androidstudioにてプロジェクトを作成後生成されたsrcフォルダ�
 同様にresフォルダに生成されたdrawableフォルダ内にdrawableフォルダ内の画像をすべてコピー．
 layoutフォルダ内に同名のフォルダ内の各.xmlファイルをコピー
 values内のstringも同様にコピー
-プロジェクト，モジュールの各.gradleにMongo公式ドキュメントを参照し，realms関係の依存関係を追記
-  公式ドキュメント：https://www.mongodb.com/docs/realm/sdk/java/install/#installation
+プロジェクト，モジュールの各.gradleにMongo公式ドキュメントを参照し，realms関係の依存関係を追記  
+
+公式ドキュメント：https://www.mongodb.com/docs/realm/sdk/java/install/#installation
   
 AndroidManifest.xmlに
 android:name=".CustomApplication"
