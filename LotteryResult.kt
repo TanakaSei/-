@@ -1,4 +1,4 @@
-package com.example.soramban.myapplication
+package yourpackage
 
 import android.content.Context
 import android.content.SharedPreferences
