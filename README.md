@@ -1,5 +1,10 @@
 # まかないセレクター
 ただいま編集中です
+# Requirement
+- realm
+- kotlin 1.7.0
+- API Level 32
+
 # 説明（仮）
 androidstudioにてプロジェクトを作成後生成されたsrcフォルダに各.ktファイルをコピーし，実行環境のプロジェクトに合ったパッケージ名にpackage your_packagename部分を修正する．
 同様にresフォルダに生成されたdrawableフォルダ内にdrawableフォルダ内の画像をすべてコピー．
