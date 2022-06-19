@@ -43,7 +43,7 @@ class LotteryResult : AppCompatActivity(){
             val results = arrayOf(R.id.result1,R.id.result2, R.id.result3)
             var i = 0
             var selectNum = lottery.getMenuAmount(minId)
-            if (selectNum>menuNum){
+            if (selectNum>=menuNum){
                 selectNum = menuNum
                 val dataStore: SharedPreferences = getSharedPreferences("DataStore", Context.MODE_PRIVATE)
                 val editor = dataStore.edit()
