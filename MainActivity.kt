@@ -12,9 +12,6 @@ import androidx.core.app.AppLaunchChecker
 import io.realm.Realm
 import kotlinx.android.synthetic.main.activity_main.*
 
-
-
-//var exclusionCategoryList = mutableListOf<String>("デザート","ノンアルコール","ソフトドリンク","フェアメニュー（逸品）","フェアメニュー（デザート）","フェアメニュー（ドリンク）","貴族焼","塩焼","たれ焼","串焼","スピードメニュー")
 class MainActivity : AppCompatActivity() {
     private lateinit var realm: Realm
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,9 +22,6 @@ class MainActivity : AppCompatActivity() {
         val selectNumber = 3
         var duplicateFlg:Boolean = true
         val editor = dataStore.edit()
-        editor.putInt("NUMBER", selectNumber)
-        editor.putBoolean("FLG", duplicateFlg)
-        editor.apply()
 
         //アクションバー非表示
         val actionBar: ActionBar? = supportActionBar
@@ -41,14 +35,14 @@ class MainActivity : AppCompatActivity() {
         //menuDB.makeDB()
         //初回起動判定
         val checker = AppLaunchChecker.hasStartedFromLauncher(applicationContext)
-        if (!checker){
-            println("初回起動")
+        
+        if (!checker){//初回起動
             AppLaunchChecker.onActivityCreate(this)
             menuDB.makeDB()
+            editor.putInt("NUMBER", selectNumber)
+            editor.putBoolean("FLG", duplicateFlg)
+            editor.apply()
 
-        }
-        else{
-            println("not初回起動")
         }
 
         val selectBtn = findViewById<Button>(R.id.select_start)
