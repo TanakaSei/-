@@ -1,25 +1,14 @@
 # まかないセレクター
-ただいま編集中です
 ## Requirement
 - realm
 - kotlin 1.7.0
 - API Level 32
+## インストール方法
+MakaniSelector.zipをダウンロード，解凍し，androidstudioにて通常の手順に従ってエミュレータ若しくは実機にインストールすることで利用可能となります．
+## 概要
+本アプリケーションはある，居酒屋チェーン店のアルバイトスタッフのまかないを決定するために作成されました． 
+また，まかないにはデーザートやドリンクなどの一部のメニューは対象外となっていますが，最後の一品だけが決められないという場合や一般利用者として訪れた際にも利用できるよう抽選対象のカテゴリーや抽選数を変更できるようになっています．
 
-## 説明（仮）
-androidstudioにてプロジェクトを作成後生成されたsrcフォルダに各.ktファイルをコピーし，実行環境のプロジェクトに合ったパッケージ名にpackage your_packagename部分を修正する．
-同様にresフォルダに生成されたdrawableフォルダ内にdrawableフォルダ内の画像をすべてコピー．
-layoutフォルダ内に同名のフォルダ内の各.xmlファイルをコピー
-values内のstringも同様にコピー
-プロジェクト，モジュールの各.gradleにMongo公式ドキュメントを参照し，realms関係の依存関係を追記  
-
-公式ドキュメント：https://www.mongodb.com/docs/realm/sdk/java/install/#installation
-  
-AndroidManifest.xmlに
-android:name=".CustomApplication"
-
-<activity android:name=".LotteryResult"/>
-<activity android:name=".ShowMenuActivity"/>
-<activity android:name=".OptionActivity"/>
-
-をそれぞれ追加
+## References
+  Realm公式ドキュメント：https://www.mongodb.com/docs/realm/sdk/java/install/#installation
 
