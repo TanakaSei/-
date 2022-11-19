@@ -12,3 +12,6 @@ MakaniSelector.zipをダウンロード，解凍し，androidstudioにて通常�
 ## References
   Realm公式ドキュメント：https://www.mongodb.com/docs/realm/sdk/java/install/#installation
 
+## 今後の展望
+ユーザビリティ面での問題が多く，サービスとしてもネイティブアプリだと別プラットフォームへの展開にもコストがかかるため，バックエンドにLaravel9,フロントエンドにVue.jsを採用したWebアプリケーションの製作をしております．
+リポジトリ開発中のは[こちら](https://github.com/TanakaSei/makanai_webapp)
