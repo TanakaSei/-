@@ -6,7 +6,7 @@
 ## インストール方法
 MakaniSelector.zipをダウンロード，解凍し，androidstudioにて通常の手順に従ってエミュレータ若しくは実機にインストールすることで利用可能となります．
 #### 以下動作未検証のインストール方法
-release/releas.zip内にあるapp-release.apkをAndroid上にインストールすることで実行可能となります．
+release/release.zip内にあるapp-release.apkをAndroid上にインストールすることで実行可能となります．
 
 ## 概要
 本アプリケーションはある，居酒屋チェーン店のアルバイトスタッフのまかないを決定するために作成されました． 
